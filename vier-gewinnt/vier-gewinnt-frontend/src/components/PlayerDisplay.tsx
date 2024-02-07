@@ -15,5 +15,5 @@ export function PlayerDisplay({player}: PlayerDisplayProps) {
         return <span className={"yellowPlayer"}>Yellow</span>
     }
 
-    return <>unknown</>
+    return <></>
 }

@@ -38,6 +38,7 @@ export function useGameState() {
                 setGameState(undefined)
             }
         },
+        // eslint-disable-next-line react-hooks/exhaustive-deps
         [gameID]
     )
 

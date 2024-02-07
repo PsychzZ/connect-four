@@ -8,7 +8,7 @@ export async function get<T>(url: string) {
 }
 
 
-export async function post<T>(url: string, body: any, config: AxiosRequestConfig) {
+export async function post<T>(url: string, body: unknown, config: AxiosRequestConfig) {
     const response = await axios.post<T>(SERVER_URL + url, body, config);
     return response.data
 }
